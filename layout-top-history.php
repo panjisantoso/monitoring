@@ -61,7 +61,7 @@
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
-          <li class="active ">
+          <li>
             <a href="index.php">
               <i class="now-ui-icons business_chart-bar-32"></i>
               <p>Sensor Udara</p>
@@ -73,7 +73,7 @@
               <p>Sensor Air</p>
             </a>
           </li>
-          <li>
+          <li class="active ">
             <a href="history.php">
               <i class="now-ui-icons arrows-1_refresh-69"></i>
               <p>History</p>
@@ -94,7 +94,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="#pablo">Sensor Udara</a>
+            <a class="navbar-brand" href="#pablo">History</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>

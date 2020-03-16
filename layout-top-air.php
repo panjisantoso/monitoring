@@ -74,6 +74,12 @@
               <p>Sensor Air</p>
             </a>
           </li>
+          <li>
+            <a href="history.php">
+              <i class="now-ui-icons arrows-1_refresh-69"></i>
+              <p>History</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
