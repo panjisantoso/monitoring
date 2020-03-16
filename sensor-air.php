@@ -142,10 +142,12 @@
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item"><b>Tingkat Kekeruhan pada Air</b> <br>
-                                            Normal : Semakin tinggi angka yang ditunjukkan <br>
-                                            oleh sensor, maka air semakin jernih<br><br>
-                                            Tidak Normal : Semakin rendah angka yang ditunjukkan<br>
-                                             oleh sensor, maka air semakin keruh</a>
+                                            Normal : Semakin rendah angka yang<br> 
+                                            ditunjukkan oleh sensor, maka air semakin <br>
+                                            jernih<br><br>
+                                            Tidak Normal : Semakin tinggi angka yang <br>
+                                            ditunjukkan oleh sensor, maka air semakin <br>
+                                            keruh</a>
                   </div>
                 </div>
               </div>

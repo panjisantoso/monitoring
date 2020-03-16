@@ -56,10 +56,10 @@
     -->
       <div class="logo">
         <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-          CT
+          
         </a>
         <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+        Monitoring Kualitas <br>Air dan Udara
         </a>
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">
