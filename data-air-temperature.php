@@ -35,7 +35,7 @@ include "koneksi.php";
             labels: [<?php while ($b = mysqli_fetch_array($x_tanggal1)) { echo '"' . $b['created_at'] . '",';}?>],
             datasets: [
             {
-                label: "Temperature (^c)",
+                label: "Temperature (°C)",
                 borderColor: "#1472e6",
                 pointBorderColor: "#FFF",
                 pointBackgroundColor: "#1472e6",

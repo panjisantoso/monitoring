@@ -206,7 +206,7 @@
 
                                 ?>
                             ]).addTo(map1);
-                            marker1.bindPopup("Lokasi Sensor Udara" +
+                            marker1.bindPopup("Lokasi Sensor Air" +
                             "<br>" + "latitude : " + <?php  echo $data2['latitude']; ?> +
                             "<br>" + "longitutde : " + <?php  echo $data2['longitude']; ?> 
                             );

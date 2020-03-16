@@ -35,7 +35,7 @@ include "koneksi.php";
             labels: [<?php while ($b = mysqli_fetch_array($x_tanggal3)) { echo '"' . $b['created_at'] . '",';}?>],
             datasets: [
             {
-                label: "Keasaman Air (Ph)",
+                label: "Keasaman Air (pH)",
                 borderColor: "#18ce0f",
                 pointBorderColor: "#FFF",
                 pointBackgroundColor: "#18ce0f",
