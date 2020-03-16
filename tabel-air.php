@@ -18,7 +18,7 @@ include "koneksi.php";
           <b>Voltage</b>
           </th>
           <th class="text-center">
-          <b>Keasaman (Ph)</b>
+          <b>Keasaman (pH)</b>
           </th>
           <th class="text-center">
           <b>Turbidity</b>
