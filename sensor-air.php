@@ -59,9 +59,9 @@
                     <i class="now-ui-icons travel_info"></i>
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item"><b>Tingkat Voltage pada Air</b> <br>
+                    <a class="dropdown-item"><b>Tingkat Tegangan pada Air</b> <br>
                                                 Tinggi : Semakin Tinggi Tingkat Keasaman <br><br>
-                                                Rendah : Semakin Rendah Tingkat Keasama</a>
+                                                Rendah : Semakin Rendah Tingkat Keasaman</a>
                   </div>
                 </div>
               </div>

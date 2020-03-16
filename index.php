@@ -60,7 +60,7 @@
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item"><b>Tingkat Monoksida pada Udara</b> <br>
-                                                Normal : 25 ppm<br><br>
+                                                Normal : ≤ 25 ppm<br><br>
                                                 Tidak Normal : Diatas 25 ppm</a>
                   </div>
                 </div>
