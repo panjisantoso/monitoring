@@ -14,5 +14,5 @@
 	if (mysqli_connect_errno()) {
 		echo "Gagal terhubung MySQL: " . mysqli_connect_error();
 	}
-	ini_set('max_execution_time', 300); //300 seconds = 5 minutes
+	ini_set('max_user_connections', 100); //300 seconds = 5 minutes
 ?>
