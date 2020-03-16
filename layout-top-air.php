@@ -64,13 +64,13 @@
         <ul class="nav">
           <li >
             <a href="index.php">
-              <i class="now-ui-icons design_app"></i>
+              <i class="now-ui-icons business_chart-bar-32"></i>
               <p>Sensor Udara</p>
             </a>
           </li>
           <li class="active ">
             <a href="sensor-air.php">
-              <i class="now-ui-icons design_app"></i>
+              <i class="now-ui-icons business_chart-bar-32"></i>
               <p>Sensor Air</p>
             </a>
           </li>
