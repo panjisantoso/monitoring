@@ -38,7 +38,18 @@ include "koneksi.php";
                 label: "Temperature (°C)",
                 borderColor: "#1472e6",
                 pointBorderColor: "#FFF",
-                pointBackgroundColor: "#1472e6",
+                pointBackgroundColor: [
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6",
+                  "#1472e6"
+                ],
                 pointBorderWidth: 2,
                 pointHoverRadius: 4,
                 pointHoverBorderWidth: 1,
@@ -104,7 +115,13 @@ include "koneksi.php";
           data:data,
           options:option
         });
-       
+        var dataset = myLineChart.data.datasets[0];
+          for (var i = 0; i < dataset.data.length; i++) {
+          if (dataset.data[i] > 37) {
+            dataset.pointBackgroundColor[i] = 'red';
+          }
+        }
+        myLineChart.update();
         
       </script>   
      

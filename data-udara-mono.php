@@ -34,7 +34,18 @@ include "koneksi.php";
                 label: "Monoksida (ppm)",
                 borderColor: "#f96332",
                 pointBorderColor: "#FFF",
-                pointBackgroundColor: "#f96332",
+                pointBackgroundColor: [
+                  "#f96332",
+                  "#f96332",
+                  "#f96332",
+                  "#f96332",
+                  "#f96332",
+                  "#f96332",
+                  "#f96332",
+                  "#f96332",
+                  "#f96332",
+                  "#f96332"
+                ],
                 pointBorderWidth: 2,
                 pointHoverRadius: 4,
                 pointHoverBorderWidth: 1,
@@ -100,7 +111,13 @@ include "koneksi.php";
           data:data,
           options:option
         });
-       
+        var dataset = myLineChart.data.datasets[0];
+          for (var i = 0; i < dataset.data.length; i++) {
+          if (dataset.data[i] > 25) {
+            dataset.pointBackgroundColor[i] = 'red';
+          }
+        }
+        myLineChart.update();
         
       </script>   
      

@@ -38,7 +38,18 @@ include "koneksi.php";
                 label: "Turbidity (NTU)",
                 borderColor: "#b37047",
                 pointBorderColor: "#FFF",
-                pointBackgroundColor: "#b37047",
+                pointBackgroundColor: [
+                  "#b37047",
+                  "#b37047",
+                  "#b37047",
+                  "#b37047",
+                  "#b37047",
+                  "#b37047",
+                  "#b37047",
+                  "#b37047",
+                  "#b37047",
+                  "#b37047"
+                ],
                 pointBorderWidth: 2,
                 pointHoverRadius: 4,
                 pointHoverBorderWidth: 1,
@@ -104,7 +115,13 @@ include "koneksi.php";
           data:data,
           options:option
         });
-       
+        var dataset = myLineChart.data.datasets[0];
+          for (var i = 0; i < dataset.data.length; i++) {
+          if (dataset.data[i] > 2000) {
+            dataset.pointBackgroundColor[i] = 'red';
+          }
+        }
+        myLineChart.update();
         
       </script>   
      

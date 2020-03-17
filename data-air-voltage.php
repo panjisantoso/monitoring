@@ -38,7 +38,18 @@ include "koneksi.php";
                 label: "Voltage (volt)",
                 borderColor: "#e6e214",
                 pointBorderColor: "#FFF",
-                pointBackgroundColor: "#e6e214",
+                pointBackgroundColor: [
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214",
+                  "#e6e214"
+                ],
                 pointBorderWidth: 2,
                 pointHoverRadius: 4,
                 pointHoverBorderWidth: 1,
@@ -104,7 +115,15 @@ include "koneksi.php";
           data:data,
           options:option
         });
-       
+        var dataset = myLineChart.data.datasets[0];
+          for (var i = 0; i < dataset.data.length; i++) {
+          if (dataset.data[i] > 3.8) {
+            dataset.pointBackgroundColor[i] = 'blue';
+          }else if(dataset.data[i] < 3.3){
+            dataset.pointBackgroundColor[i] = 'orange';
+          }
+        }
+        myLineChart.update();
         
       </script>   
      

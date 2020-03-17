@@ -31,6 +31,8 @@ include "koneksi.php";
         var gradientFill = canvas.createLinearGradient(0, 170, 0, 50);
         gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
         gradientFill.addColorStop(1, hexToRGB('#18ce0f', 0.4));
+
+
         var data = {
             labels: [<?php while ($b = mysqli_fetch_array($x_tanggal3)) { echo '"' . $b['created_at'] . '",';}?>],
             datasets: [
@@ -38,7 +40,18 @@ include "koneksi.php";
                 label: "Keasaman Air (pH)",
                 borderColor: "#18ce0f",
                 pointBorderColor: "#FFF",
-                pointBackgroundColor: "#18ce0f",
+                pointBackgroundColor: [
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f',
+                  '#18ce0f'
+                ],
                 pointBorderWidth: 2,
                 pointHoverRadius: 4,
                 pointHoverBorderWidth: 1,
@@ -104,7 +117,16 @@ include "koneksi.php";
           data:data,
           options:option
         });
-       
+
+        var dataset = myLineChart.data.datasets[0];
+          for (var i = 0; i < dataset.data.length; i++) {
+          if (dataset.data[i] > 8.5) {
+            dataset.pointBackgroundColor[i] = 'blue';
+          }else if(dataset.data[i] < 6.5){
+            dataset.pointBackgroundColor[i] = 'orange';
+          }
+        }
+        myLineChart.update();
         
       </script>   
      
