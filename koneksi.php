@@ -5,10 +5,10 @@
 	// $password	= ""; //sesuaikan password
     // $database	= "test"; //sesuaikan target database
     
-    $server  = "arfo8ynm6olw6vpn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $user  = "dgf6f1qds8gvhn70";
-    $password = "qunlh0s2hojvyojo";
-    $database = "gg984lrbxouj31q2";
+    $server		= "139.162.27.247";
+	$user		= "trywiguna";
+	$password	= "monitoringwaste2020";
+	$database	= "db_monitoringwaste";
 	
 	$con = mysqli_connect($server, $user, $password, $database);
 	if (mysqli_connect_errno()) {
