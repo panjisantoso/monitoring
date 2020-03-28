@@ -31,7 +31,7 @@ include "../koneksi.php";
 <?php   
     }else{
 ?> 
-    <h5 class="card-category">Status <input type="text" style="text-align:center; width:30%; color:red; border-color:black;" value="Berbahaya" class="form-control" readonly></h5>   
+    <h5 class="card-category">Status <input type="text" style="text-align:center; width:30%; color:black; border-color:black;" value="Berbahaya" class="form-control" readonly></h5>   
 <?php   
     }
 ?> 
