@@ -19,7 +19,7 @@ include "../koneksi.php";
 <?php   
     }elseif($status_turb == 3){
 ?>
-    <h5 class="card-category">Status <input type="text" style="width:43%; color:#caab0c; border-color:#caab0c;" value="Tidak Sehat Bagi Orang Tertentu" class="form-control" readonly></h5>   
+    <h5 class="card-category">Status <input type="text" style="width:73%; color:#caab0c; border-color:#caab0c;" value="Tidak Sehat Bagi Orang Tertentu" class="form-control" readonly></h5>   
 <?php   
     }elseif($status_turb == 4){
 ?> 
