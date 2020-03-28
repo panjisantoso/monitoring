@@ -29,6 +29,7 @@
       demo.initDashboardPageCharts();
 
     });
+    
   </script>
   <!-- <script>
     var mysql = require('mysql');
