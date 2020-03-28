@@ -17,7 +17,7 @@
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item"><b>Tingkat Kualitas Udara</b> <br>
-                                                Normal : ≤ 350 ppm <br><br>
+                                                Normal : ≤ 400 ppm <br><br>
                                                 Tidak Normal : > 400 ppm</a>
                   </div>
                 </div>
