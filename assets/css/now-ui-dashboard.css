@@ -22,6 +22,19 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1322,6 +1335,7 @@ fieldset[disabled] .btn-link.active {
 }
 
 .form-control {
+  display: inline-block;
   background-color: transparent;
   border: 1px solid #E3E3E3;
   border-radius: 30px;
@@ -1729,7 +1743,7 @@ fieldset[disabled] .btn-link.active {
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
-  background-color: #E3E3E3;
+  background-color: transparent;
   color: #888;
   cursor: not-allowed;
 }
@@ -1945,8 +1959,9 @@ p.description {
 .card-category {
   text-transform: capitalize;
   font-weight: 400;
-  color: #9A9A9A;
+  color: #000000;
   font-size: 0.7142em;
+  
 }
 
 .card-category {
@@ -4727,6 +4742,7 @@ Created using IcoMoon - icomoon.io
 
 .card-chart .card-header .card-category {
   margin-bottom: 5px;
+  color: #000;
 }
 
 .card-chart .table {

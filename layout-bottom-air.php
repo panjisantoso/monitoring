@@ -3,7 +3,7 @@
           <div class="copyright" id="copyright">
             &copy; <script>
               document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-            </script>, Designed by Kelompok 1 Topik Khusus MDI</a>.
+            </script> </a>.
           </div>
         </div>
       </footer>

@@ -9,6 +9,8 @@ include "koneksi.php";
 
   $y_quality   = mysqli_query($con, 'SELECT num_quality_air FROM ( SELECT * FROM tb_sensor_udara ORDER BY id DESC LIMIT 10) Var1 ORDER BY ID ASC');
   $y_mono  = mysqli_query($con, 'SELECT num_mono_air FROM ( SELECT * FROM tb_sensor_udara ORDER BY id DESC LIMIT 10) Var1 ORDER BY ID ASC');
+  
+  $status_quality  = mysqli_query($con, 'SELECT status_qty_air FROM ( SELECT * FROM tb_sensor_udara ORDER BY id DESC LIMIT 1) Var1 ORDER BY ID DESC');
   ?>
 
   <div class="panel panel-primary">

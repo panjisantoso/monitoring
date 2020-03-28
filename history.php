@@ -8,10 +8,14 @@ ini_set('max_execution_time', 300); //300 seconds = 5 minutes?>
           <div class="col-md-5">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title"> Tabel Udara</h4>
+                <h4 class="card-title"> Tabel Udara 
+                  <!-- <input class="form-control" style="float:right; width:40%; font-size:12; height:30;" type="text" id="search1" placeholder="Type to search"> -->
+                </h4>
+                
               </div>
               <div class="card-body">
                 <div class="table-responsive">
+               
                 <?php include "tabel-udara.php"; ?>
                 </div>
               </div>
@@ -20,7 +24,9 @@ ini_set('max_execution_time', 300); //300 seconds = 5 minutes?>
           <div class="col-md-7">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title"> Tabel Air</h4>
+                <h4 class="card-title"> Tabel Air
+                <!-- <input class="form-control" style="float:right; width:40%; font-size:12; height:30;" type="text" id="search2" placeholder="Type to search"> -->
+                </h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">

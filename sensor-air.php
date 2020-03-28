@@ -43,6 +43,16 @@
                 </div>
               </div>
               <div class="card-footer">
+                  <script>
+                    var refreshId2 = setInterval(function()
+                    {
+                        $('#status-temp').load('status-air/status_air_temp.php');
+                    }, 1000);
+                  </script>
+
+                    <div id="status-temp">
+
+                    </div>	
                 <div class="stats">
                   <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
                 </div>
@@ -81,8 +91,9 @@
                 </div>
               </div>
               <div class="card-footer">
+              <h5 class="card-category" style="height:30;"></h5>
                 <div class="stats">
-                  <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
+                  <i class="now-ui-icons arrows-1_refresh-69" ></i> Just Updated
                 </div>
               </div>
             </div>
@@ -125,6 +136,16 @@
                 </div>
               </div>
               <div class="card-footer">
+                  <script>
+                    var refreshId2 = setInterval(function()
+                    {
+                        $('#status-ph').load('status-air/status_air_ph.php');
+                    }, 1000);
+                  </script>
+
+                    <div id="status-ph">
+
+                    </div>	
                 <div class="stats">
                   <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
                 </div>
@@ -167,9 +188,39 @@
                 </div>
               </div>
               <div class="card-footer">
+                  <script>
+                    var refreshId2 = setInterval(function()
+                    {
+                        $('#status-turb').load('status-air/status_air_turb.php');
+                    }, 1000);
+                  </script>
+
+                    <div id="status-turb">
+
+                    </div>	
                 <div class="stats">
                   <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="card ">
+              <!-- <div class="card-header ">
+                <h4 class="card-title"> </h4>
+              </div> -->
+              <div class="card-body">
+                  <script>
+                    var refreshId2 = setInterval(function()
+                    {
+                        $('#kesimpulan-air').load('status-air/status_air_kesimpulan.php');
+                    }, 1000);
+                  </script>
+
+                    <div id="kesimpulan-air">
+
+                    </div>	
               </div>
             </div>
           </div>

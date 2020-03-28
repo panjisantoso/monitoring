@@ -102,7 +102,7 @@
             <span class="navbar-toggler-bar navbar-kebab"></span>
             <span class="navbar-toggler-bar navbar-kebab"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+          <!-- <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <form>
               <div class="input-group no-border">
                 <input type="text" value="" class="form-control" placeholder="Search...">
@@ -144,6 +144,6 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </nav>

@@ -43,6 +43,16 @@
                 </div>
               </div>
               <div class="card-footer">
+                  <script>
+                    var refreshId2 = setInterval(function()
+                    {
+                        $('#status-quality').load('status-udara/status_udara_quality.php');
+                    }, 1000);
+                  </script>
+
+                    <div id="status-quality">
+
+                    </div>	
                 <div class="stats">
                   <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
                 </div>
@@ -81,13 +91,43 @@
                 </div>
               </div>
               <div class="card-footer">
-                <div class="stats">
+                  <script>
+                    var refreshId2 = setInterval(function()
+                    {
+                        $('#status-mono').load('status-udara/status_udara_mono.php');
+                    }, 1000);
+                  </script>
+
+                    <div id="status-mono">
+
+                    </div>	
+                 <div class="stats">
                   <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
                 </div>
               </div>
             </div>
           </div>
-          
+          <div class="col-md-12">
+            <div class="card ">
+              <!-- <div class="card-header ">
+                <h4 class="card-title"> </h4>
+              </div> -->
+              <div class="card-body">
+                  <script>
+                    var refreshId2 = setInterval(function()
+                    {
+                        $('#kesimpulan-udara').load('status-udara/status_udara_kesimpulan.php');
+                    }, 1000);
+                  </script>
+
+                    <div id="kesimpulan-udara">
+
+                    </div>	
+              </div>
+            </div>
+          </div>
+
+
 
           
           <div class="col-md-12">
