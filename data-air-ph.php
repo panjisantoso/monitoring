@@ -120,11 +120,19 @@ include "koneksi.php";
 
         var dataset = myLineChart.data.datasets[0];
           for (var i = 0; i < dataset.data.length; i++) {
-          if (dataset.data[i] > 8.5) {
-            dataset.pointBackgroundColor[i] = 'blue';
-          }else if(dataset.data[i] < 6.5){
-            dataset.pointBackgroundColor[i] = 'orange';
-          }
+            if (dataset.data[i] >= 6 && dataset.data[i] <= 9) {
+              dataset.pointBackgroundColor[i] = 'green';
+            }else if (dataset.data[i] >= 5 && dataset.data[i] <= 9) {
+              dataset.pointBackgroundColor[i] = 'blue';
+            }else if (dataset.data[i] > 4.5 && dataset.data[i] <= 9.5) {
+              dataset.pointBackgroundColor[i] = '#caab0c';
+            }else if (dataset.data[i] > 4 && dataset.data[i] <= 10) {
+              dataset.pointBackgroundColor[i] = '#cf0c5d';
+            }else if (dataset.data[i] > 2 && dataset.data[i] <= 12) {
+              dataset.pointBackgroundColor[i] = 'red';
+            }else{
+              dataset.pointBackgroundColor[i] = 'red';
+            }
         }
         myLineChart.update();
         

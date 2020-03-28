@@ -117,7 +117,9 @@ include "koneksi.php";
         });
         var dataset = myLineChart.data.datasets[0];
           for (var i = 0; i < dataset.data.length; i++) {
-          if (dataset.data[i] > 37) {
+          if (dataset.data[i] >= 16 && dataset.data[i] <= 40) {
+            dataset.pointBackgroundColor[i] = 'green';
+          }else{
             dataset.pointBackgroundColor[i] = 'red';
           }
         }

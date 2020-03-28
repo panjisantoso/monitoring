@@ -113,9 +113,19 @@ include "koneksi.php";
         });
         var dataset = myLineChart.data.datasets[0];
           for (var i = 0; i < dataset.data.length; i++) {
-          if (dataset.data[i] > 25) {
-            dataset.pointBackgroundColor[i] = 'red';
-          }
+            if (dataset.data[i] <= 4.4) {
+              dataset.pointBackgroundColor[i] = 'green';
+            }else if (dataset.data[i] > 4.5 && dataset.data[i] <= 9.4) {
+              dataset.pointBackgroundColor[i] = 'blue';
+            }else if (dataset.data[i] > 9.4 && dataset.data[i] <= 12.4) {
+              dataset.pointBackgroundColor[i] = '#caab0c';
+            }else if (dataset.data[i] > 12.4 && dataset.data[i] <= 15.4) {
+              dataset.pointBackgroundColor[i] = '#cf0c5d';
+            }else if (dataset.data[i] > 15.4 && dataset.data[i] <= 30.3) {
+              dataset.pointBackgroundColor[i] = 'red';
+            }else{
+              dataset.pointBackgroundColor[i] = 'red';
+            }
         }
         myLineChart.update();
         

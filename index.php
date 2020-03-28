@@ -17,7 +17,7 @@
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item"><b>Tingkat Kualitas Udara</b> <br>
-                                                Normal : ≤ 400 ppm <br><br>
+                                                Normal : ≤ 350 ppm <br><br>
                                                 Tidak Normal : > 400 ppm</a>
                   </div>
                 </div>
@@ -70,8 +70,8 @@
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item"><b>Tingkat Monoksida pada Udara</b> <br>
-                                                Normal : ≤ 25 ppm<br><br>
-                                                Tidak Normal : Diatas 25 ppm</a>
+                                                Normal : ≤ 9.4 ppm<br><br>
+                                                Tidak Normal : Diatas 9.4 ppm</a>
                   </div>
                 </div>
               </div>
@@ -133,7 +133,7 @@
           <div class="col-md-12">
             <div class="card ">
               <div class="card-header ">
-              <h4 class="card-title">Sensor Location</h4>
+              <h4 class="card-title">Lokasi Sensor</h4>
               </div>
               <div class="card-body ">
               <div class="map">

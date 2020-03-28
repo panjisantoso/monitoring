@@ -110,8 +110,8 @@
                   </button>
                   <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item"><b>Tingkat Keasaman pada Air</b> <br>
-                                                Normal :pH 6,5 - 8,5 <br><br>
-                                                Tidak Normal : pH dibawah 6,5 dan diatas 8,5</a>
+                                                Normal :pH 6 - 9 <br><br>
+                                                Tidak Normal : pH dibawah 6 dan diatas 9</a>
                   </div>
                 </div>
               </div>
@@ -228,7 +228,7 @@
           <div class="col-md-12">
             <div class="card ">
               <div class="card-header ">
-              <h4 class="card-title">Sensor Location</h4>
+              <h4 class="card-title">Lokasi Sensor</h4>
               </div>
               <div class="card-body ">
               <div class="map">
