@@ -128,7 +128,7 @@ include "koneksi.php";
             }else if (dataset.data[i] > 2500 && dataset.data[i] <= 2700) {
               dataset.pointBackgroundColor[i] = 'red';
             }else{
-              dataset.pointBackgroundColor[i] = 'red';
+              dataset.pointBackgroundColor[i] = 'black';
             }
         }
         myLineChart.update();
