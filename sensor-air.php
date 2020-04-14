@@ -259,10 +259,20 @@
                             ]).addTo(map1);
                             marker1.bindPopup("Lokasi Sensor Air" +
                             "<br>" + "latitude : " + <?php  echo $data2['latitude']; ?> +
-                            "<br>" + "longitutde : " + <?php  echo $data2['longitude']; ?> 
+                            "<br>" + "longitutde : " + <?php  echo $data2['longitude']; ?> +
+                            "<br>" + "<button type='button' class='btn btn-primary' onclick='location.reload();'>Go to Sensor</button>"
+                            
                             );
-                                        
-                        });	
+                            function remove() {
+                                $.ajax({
+                                type: "POST",
+                                success: function() {
+                                    location.reload();
+                                }
+                            });
+                                return false;
+                            }             
+                            });	
                         
                     </script>
                     </div>
